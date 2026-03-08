@@ -1,0 +1,40 @@
+# --- Identity ---
+name: "editorial-calendar-build"
+display_name: "Editorial Calendar Build"
+description: "Audience analysis, ideation, calendar planning, and brief creation for editorial planning"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/editorial-calendar-build"
+
+# --- Discovery (Hub) ---
+category: "content-creator"
+tags:
+  - "editorial"
+  - "calendar"
+  - "planning"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+    - "openai-gpt4"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 3
+  prompts: 4
+  workflows: 1
+  services: 0
+  sources: 0
+  documents: 1
+  assets: 0
+  total: 9
