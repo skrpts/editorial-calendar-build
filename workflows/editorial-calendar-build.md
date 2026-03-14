@@ -19,9 +19,7 @@ connections:
     type: uses
   - target: create-content-brief
     type: uses
-  - target: anthropic-claude
-    type: runs_on
-  - target: openai-gpt4
+  - target: llm-service
     type: runs_on
 metadata:
   estimated_duration: "15-30 minutes"
@@ -72,3 +70,47 @@ For each content piece in the calendar, invoke the **content-briefing** skill vi
 - If ideation produces fewer than 10 viable topics, broaden the keyword set or extend the niche scope
 - If the calendar has resource conflicts, flag them and suggest alternative scheduling
 - If briefs are produced before the calendar is finalised, they may need updating — note this dependency
+
+## Inputs
+
+| Name | Required | Description | Example |
+|------|----------|-------------|---------|
+| `{{input.industry_niche}}` | Yes | Industry/niche | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.existing_audience_data}}` | Yes | existing audience data | `Paste the latest metrics, exported data, or summary notes relevant to the workflow.` |
+| `{{input.competitor_analysis}}` | Yes | competitor analysis | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.business_objectives}}` | No | business objectives | `Paste the relevant brief, notes, source material, or dataset here.` |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| Audience profile | Audience profile with demographics, pain points, content preferences, and gap analysis |
+| Ranked topic ideas | Ranked topic ideas with titles, angles, and keyword targets |
+| Structured editorial calendar for the planning period | Structured editorial calendar for the planning period |
+| Individual content briefs for each calendar entry, ready for assignment | Individual content briefs for each calendar entry, ready for assignment |
+
+## Setup
+
+Before running this workflow:
+
+1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
+2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
+
+## Provider Notes
+
+- Most stages work with any capable model; stronger models usually improve synthesis, judgement, and writing quality.
+- Extraction, classification, and formatting steps generally run well on smaller or faster models.
+- Because there are no vendor-specific integrations here, provider choice is mostly a trade-off between speed, quality, and cost.
+
+## Example Input
+
+To test this workflow immediately after import:
+
+```
+Industry Niche: "Paste the relevant brief, notes, source material, or dataset here."
+Existing Audience Data: "Paste the latest metrics, exported data, or summary notes relevant to the workflow."
+Competitor Analysis: "Paste the relevant brief, notes, source material, or dataset here."
+Business Objectives: "Paste the relevant brief, notes, source material, or dataset here."
+```
+

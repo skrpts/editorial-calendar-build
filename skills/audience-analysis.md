@@ -5,7 +5,7 @@ title: Audience Analysis
 description: "Identifies target audience characteristics, preferences, and content gaps"
 tags: [Needs Review]
 connections:
-  - target: openai-gpt4
+  - target: llm-service
     type: runs_on
 ---
 
