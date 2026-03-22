@@ -3,7 +3,7 @@ type: prompt
 id: content-calendar-planner
 title: Content Calendar Planner
 description: "Creates a structured content calendar for a specified time period"
-tags: []
+tags: [Production]
 connections:
   - target: content-ideation
     type: derived_from
@@ -41,12 +41,12 @@ You are a content strategist. Create a content calendar for the specified period
 
 ### Inputs
 
-- **Planning period:** {period}
-- **Topic ideas:** {topics}
-- **Audience profile:** {audience}
-- **Business objectives:** {objectives}
-- **Available resources:** {resources}
-- **Key dates/events:** {events}
+- **Planning period:** Determine an appropriate planning period based on the business objectives and content volume.
+- **Topic ideas:** Using the ranked topic ideas produced in the previous stage.
+- **Audience profile:** Using the audience profile produced in Stage 1.
+- **Business objectives:** Use the business objectives from the audience profile produced in Stage 1.
+- **Available resources:** Infer from the business context or assume a small content team.
+- **Key dates/events:** Identify relevant seasonal events, product launches, and industry milestones from the business context.
 
 ## Formatting Rules
 

@@ -2,7 +2,7 @@
 name: "editorial-calendar-build"
 display_name: "Editorial Calendar Build"
 description: "Audience analysis, ideation, calendar planning, and brief creation for editorial planning"
-version: "1.0.0"
+version: "1.2.0"
 engine: ">=1.0.0"
 
 # --- Attribution ---

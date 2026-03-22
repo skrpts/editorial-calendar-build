@@ -3,7 +3,7 @@ type: prompt
 id: profile-audience
 title: Profile Audience
 description: "Creates a detailed audience profile from available data and market context"
-tags: []
+tags: [Production]
 connections:
   - target: audience-analysis
     type: derived_from
@@ -30,14 +30,14 @@ You are a market research analyst. Using the data and context below, create a de
 
 ### Inputs
 
-- **Industry/niche:** {niche}
-- **Existing audience data:** {data}
-- **Competitor analysis:** {competitors}
-- **Business objectives:** {objectives}
+- **Industry/niche:** {{input.industry_niche}}
+- **Existing audience data:** {{input.existing_audience_data}}
+- **Competitor analysis:** {{input.competitor_analysis}}
+- **Business objectives:** {{input.business_objectives}}
 
 ## Formatting Rules
 
 - Use British English throughout
 - Be specific — "marketing managers at B2B SaaS companies with 50-200 employees" is better than "marketers"
 - Distinguish between confirmed data and inferred characteristics
-- Prioritise actionable insights over comprehensive coverage
+- Prioritise actionable insights over exhaustive coverage

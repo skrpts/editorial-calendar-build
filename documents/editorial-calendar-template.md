@@ -3,7 +3,7 @@ type: document
 id: editorial-calendar-template
 title: Editorial Calendar Template
 description: "Monthly content planning spreadsheet structure for editorial teams"
-tags: []
+tags: [Production]
 connections: []
 ---
 
