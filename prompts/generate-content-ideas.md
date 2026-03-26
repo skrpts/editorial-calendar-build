@@ -31,8 +31,8 @@ Rank the ideas from most to least promising.
 
 ### Inputs
 
-- **Target audience:** Using the audience profile produced in the previous stage.
-- **Industry/niche:** Use the industry/niche from the audience profile produced in Stage 1.
+- **Target audience:** {{steps.profile-audience.output}}
+- **Industry/niche:** {{input.industry_niche}}
 - **Seed keywords:** Derive seed keywords from the audience profile and industry context.
 - **Existing content:** Reference any existing content inventory available from the project context.
 

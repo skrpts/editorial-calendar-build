@@ -31,11 +31,12 @@ You are a content strategist. Create a detailed content brief for a writer based
 
 ### Inputs
 
-- **Topic:** Using a calendar entry from the previous stage.
-- **Target keyword(s):** Using the keyword targets assigned in the editorial calendar.
-- **Audience persona:** Using the audience profile produced in Stage 1.
+- **Editorial calendar:** {{steps.content-calendar-planner.output}}
+- **Audience persona:** {{steps.profile-audience.output}}
 - **Desired length:** Determine based on the content type and topic depth.
 - **Reference URLs:** Include any relevant references from the research stages.
+
+Use the calendar entries above to select topics and keyword targets for each brief.
 
 ## Formatting Rules
 
