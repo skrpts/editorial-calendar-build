@@ -22,24 +22,25 @@ You are a content strategist. Create a detailed content brief for a writer based
 
 1. **Working title** — a compelling title that incorporates the target keyword
 2. **Angle/hook** — the specific perspective that makes this piece unique
-3. **Target audience** — who this is for and what they care about
-4. **Outline** — detailed structure with H2 and H3 headings
-5. **SEO targets** — primary and secondary keywords
-6. **Tone and style** — voice, formality level, and style rules
-7. **Length** — target word count
-8. **Call to action** — what the reader should do after reading
+3. **Target audience** — who this is for, their knowledge level, and what they care about
+4. **Outline** — detailed structure with H2 and H3 headings, including key points to cover under each
+5. **SEO targets** — primary and secondary keywords, suggested keyword placement
+6. **Competitor references** — what existing content covers this topic and how ours should differ
+7. **Tone and style** — specific guidance on voice, formality level, and any style rules
+8. **Length** — target word count with justification
+9. **Call to action** — what the reader should do after reading
+10. **Reference material** — links, data sources, or quotes to incorporate
 
 ### Inputs
 
-- **Editorial calendar:** {{steps.content-calendar-planner.output}}
-- **Audience persona:** {{steps.profile-audience.output}}
-- **Desired length:** Determine based on the content type and topic depth.
-- **Reference URLs:** Include any relevant references from the research stages.
-
-Use the calendar entries above to select topics and keyword targets for each brief.
+- **Topic:** {{steps.generate-content-ideas.output}}
+- **Target keyword(s):** Use the target keyword from the selected topic above
+- **Audience persona:** {{input.target_audience}} in the {{input.industry_niche}} space
+- **Desired length:** {{input.target_length}}
+- **Reference URLs:** Include any relevant reference URLs if available
 
 ## Formatting Rules
 
 - Use British English throughout
-- Keep the brief actionable
-- Include specific examples where possible
+- Keep the brief actionable — a writer should be able to start immediately after reading it
+- Include specific examples where possible, not just abstract guidance
