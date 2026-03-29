@@ -3,7 +3,7 @@ type: prompt
 id: profile-audience
 title: Profile Audience
 description: "Creates a detailed audience profile from available data and market context"
-tags: [Production]
+tags: [Production, analysis:audience, planning:editorial]
 connections:
   - target: audience-analysis
     type: derived_from

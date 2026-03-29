@@ -3,7 +3,7 @@ type: skill
 id: audience-analysis
 title: Audience Analysis
 description: "Identifies target audience characteristics, preferences, and content gaps"
-tags: [Production]
+tags: [Production, analysis:audience, analysis:content, planning:editorial]
 connections:
   - target: llm-service
     type: runs_on
