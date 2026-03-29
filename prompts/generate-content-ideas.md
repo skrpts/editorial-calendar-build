@@ -3,7 +3,7 @@ type: prompt
 id: generate-content-ideas
 title: Generate Content Ideas
 description: "Generates ranked content topic ideas for a given audience and niche"
-tags: [Production, planning:editorial, writing:content]
+tags: [Production, Audience, Content]
 connections:
   - target: content-ideation
     type: derived_from

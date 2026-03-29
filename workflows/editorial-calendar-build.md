@@ -3,7 +3,7 @@ type: workflow
 id: editorial-calendar-build
 title: Editorial Calendar Build
 description: "Audience analysis, ideation, calendar planning, and brief creation for editorial planning"
-tags: [Production, analysis:audience, planning:editorial]
+tags: [Production, Audience, Content]
 connections:
   - target: audience-analysis
     type: uses

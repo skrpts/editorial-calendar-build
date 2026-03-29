@@ -3,7 +3,7 @@ type: skill
 id: content-ideation
 title: Content Ideation
 description: "Generates topic ideas from trends, keywords, and audience interests"
-tags: [Tested, planning:editorial, writing:content]
+tags: [Tested, Audience, Content]
 connections:
   - target: llm-service
     type: runs_on
