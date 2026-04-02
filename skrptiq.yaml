@@ -3,7 +3,7 @@ id: "1960935a-7281-42bd-ac2d-f54979c469f4"
 name: "editorial-calendar-build"
 display_name: "Editorial Calendar Build"
 description: "Audience analysis, ideation, calendar planning, and brief creation for editorial planning"
-version: "1.0.3"
+version: "1.0.4"
 engine: ">=1.0.0"
 
 # --- Attribution ---
