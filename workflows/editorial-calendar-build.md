@@ -24,6 +24,8 @@ connections:
 metadata:
   estimated_duration: "15-30 minutes"
   trigger: manual
+  - target: editorial-calendar-template
+    type: references
 ---
 
 ## Overview
