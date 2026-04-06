@@ -11,14 +11,6 @@ connections:
     type: uses
   - target: content-briefing
     type: uses
-  - target: profile-audience
-    type: uses
-  - target: generate-content-ideas
-    type: uses
-  - target: content-calendar-planner
-    type: uses
-  - target: create-content-brief
-    type: uses
   - target: llm-service
     type: runs_on
   - target: editorial-calendar-template
