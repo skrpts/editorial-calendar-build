@@ -42,8 +42,8 @@ You are a content strategist. Create a content calendar for the specified period
 ### Inputs
 
 - **Planning period:** Determine an appropriate planning period based on the business objectives and content volume.
-- **Topic ideas:** {{steps.generate-content-ideas.output}}
-- **Audience profile:** {{steps.profile-audience.output}}
+- **Topic ideas:** {{steps.Content Ideation.output}}
+- **Audience profile:** {{steps.Audience Analysis.output}}
 - **Business objectives:** {{input.business_objectives}}
 - **Available resources:** Infer from the business context or assume a small content team.
 - **Key dates/events:** Identify relevant seasonal events, product launches, and industry milestones from the business context.
