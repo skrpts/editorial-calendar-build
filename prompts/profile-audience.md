@@ -4,6 +4,30 @@ id: profile-audience
 title: Profile Audience
 description: "Creates a detailed audience profile from available data and market context"
 tags: [Production, Audience, Content]
+inputs:
+  industry_niche:
+    label: "Industry Niche"
+    description: "The specific niche or vertical"
+    example: "AI-powered productivity tools for knowledge workers"
+    required: true
+    type: text
+  existing_audience_data:
+    label: "Existing Audience Data"
+    description: "Data about your current audience"
+    example: "Google Analytics demographics, email subscriber segments"
+    required: true
+    type: text
+  competitor_analysis:
+    label: "Competitor Analysis"
+    description: "Existing competitive analysis or intelligence"
+    example: "[Paste competitive analysis findings]"
+    required: true
+    type: text
+  business_objectives:
+    label: "Business Objectives"
+    description: "Business Objectives"
+    required: true
+    type: text
 connections:
   - target: audience-analysis
     type: derived_from

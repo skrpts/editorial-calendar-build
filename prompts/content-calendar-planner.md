@@ -4,6 +4,12 @@ id: content-calendar-planner
 title: Content Calendar Planner
 description: "Creates a structured content calendar for a specified time period"
 tags: [Production, Content, Planning]
+inputs:
+  business_objectives:
+    label: "Business Objectives"
+    description: "Business Objectives"
+    required: true
+    type: text
 connections:
   - target: content-ideation
     type: derived_from
