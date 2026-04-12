@@ -26,6 +26,7 @@ inputs:
   business_objectives:
     label: "Business Objectives"
     description: "Business Objectives"
+    example: "Increase organic traffic 40% in Q3, launch 2 new product lines, reduce churn below 5%"
     required: true
     type: text
 connections:
