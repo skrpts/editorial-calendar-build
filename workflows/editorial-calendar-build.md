@@ -23,10 +23,8 @@ execution:
     step_type: "synthesis"
   - skill: "content-ideation"
     step_type: "generation"
-    input_from: "audience-analysis"
   - skill: "content-briefing"
     step_type: "generation"
-    input_from: "content-ideation"
 ---
 
 ## Overview
