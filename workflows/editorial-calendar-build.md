@@ -18,6 +18,11 @@ connections:
 metadata:
   estimated_duration: "15-30 minutes"
   trigger: manual
+output_step: "content-briefing"
+composite_steps:
+  - "audience-analysis"
+  - "content-ideation"
+  - "content-briefing"
 execution:
   - skill: "audience-analysis"
     step_type: "synthesis"
