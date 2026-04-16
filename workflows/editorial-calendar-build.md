@@ -28,8 +28,12 @@ execution:
     step_type: "synthesis"
   - skill: "content-ideation"
     step_type: "generation"
+    context:
+      content_context: ""
   - skill: "content-briefing"
     step_type: "generation"
+    context:
+      target_audience: ""
 ---
 
 ## Overview
