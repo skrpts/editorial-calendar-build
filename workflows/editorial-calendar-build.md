@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: content-briefing
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: editorial-calendar-template
@@ -18,11 +20,12 @@ connections:
 metadata:
   estimated_duration: "15-30 minutes"
   trigger: manual
-output_step: "content-briefing"
+output_step: "language-polish"
 composite_steps:
   - "audience-analysis"
   - "content-ideation"
   - "content-briefing"
+  - "language-polish"
 execution:
   - skill: "audience-analysis"
     step_type: "synthesis"
@@ -34,6 +37,8 @@ execution:
     step_type: "generation"
     context:
       target_audience: ""
+  - skill: "language-polish"
+    step_type: "content"
 ---
 
 ## Overview
