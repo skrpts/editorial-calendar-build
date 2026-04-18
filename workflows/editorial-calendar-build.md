@@ -31,6 +31,7 @@ execution:
     step_type: "synthesis"
   - skill: "content-ideation"
     step_type: "generation"
+    prompt: "generate-content-ideas"
     context:
       content_context: ""
   - skill: "content-briefing"
