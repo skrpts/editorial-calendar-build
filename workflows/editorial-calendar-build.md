@@ -28,6 +28,7 @@ composite_steps:
   - "language-polish"
 execution:
   - skill: "audience-analysis"
+    prompt: "content-calendar-planner"
     step_type: "synthesis"
   - skill: "content-ideation"
     step_type: "generation"
@@ -35,10 +36,12 @@ execution:
     context:
       content_context: ""
   - skill: "content-briefing"
+    prompt: "create-content-brief"
     step_type: "generation"
     context:
       target_audience: ""
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 
