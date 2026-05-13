@@ -34,18 +34,18 @@ execution:
     step_type: "generation"
     prompt: "generate-content-ideas"
     context:
-      content_context: ""
+      content_context: "No additional context"
   - skill: "content-briefing"
     prompt: "create-content-brief"
     step_type: "generation"
     context:
-      target_audience: ""
+      target_audience: "General professional audience"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
 ---
 
 ## Overview
