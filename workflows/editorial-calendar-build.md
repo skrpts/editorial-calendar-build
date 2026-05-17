@@ -35,6 +35,10 @@ execution:
     prompt: "generate-content-ideas"
     context:
       content_context: "No additional context"
+    bindings:
+      source_content:
+        from_step: "Audience Analysis"
+        field: output
   - skill: "content-briefing"
     prompt: "create-content-brief"
     step_type: "generation"
