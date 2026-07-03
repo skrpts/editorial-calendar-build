@@ -30,9 +30,11 @@ execution:
   - skill: "audience-analysis"
     prompt: "content-calendar-planner"
     step_type: "synthesis"
+    output: { name: "audience_analysis", type: "text" }
   - skill: "content-ideation"
     step_type: "generation"
     prompt: "generate-content-ideas"
+    output: { name: "ideas", type: "list" }
     context:
       content_context: "No additional context"
     bindings:
@@ -42,11 +44,13 @@ execution:
   - skill: "content-briefing"
     prompt: "create-content-brief"
     step_type: "generation"
+    output: { name: "brief", type: "text" }
     context:
       target_audience: "General professional audience"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_calendar", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
