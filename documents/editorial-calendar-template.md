@@ -9,7 +9,7 @@ connections: []
 
 ## Purpose
 
-A template structure for organising the editorial calendar output. Use this format to track content from planning through publication.
+A template structure for organizing the editorial calendar output. Use this format to track content from planning through publication.
 
 ## Calendar Structure
 

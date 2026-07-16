@@ -99,7 +99,7 @@ For each content piece in the calendar, invoke the **content-briefing** skill vi
 - If audience data is insufficient, produce a hypothesis-based profile and flag assumptions for validation
 - If ideation produces fewer than 10 viable topics, broaden the keyword set or extend the niche scope
 - If the calendar has resource conflicts, flag them and suggest alternative scheduling
-- If briefs are produced before the calendar is finalised, they may need updating — note this dependency
+- If briefs are produced before the calendar is finalized, they may need updating — note this dependency
 
 ## Inputs
 
@@ -124,7 +124,7 @@ For each content piece in the calendar, invoke the **content-briefing** skill vi
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

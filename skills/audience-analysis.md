@@ -11,11 +11,11 @@ connections:
 
 ## Capability
 
-Analyses target audience demographics, psychographics, content consumption habits, and unmet needs. Produces audience profiles that inform content strategy decisions.
+Analyzes target audience demographics, psychographics, content consumption habits, and unmet needs. Produces audience profiles that inform content strategy decisions.
 
 ## When to Use
 
-- Starting a new content programme or publication
+- Starting a new content program or publication
 - Repositioning existing content for a different audience segment
 - Identifying gaps between what the audience needs and what is currently published
 

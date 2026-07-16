@@ -65,4 +65,4 @@ You are a market research analyst. Using the data and context below, create a de
 - Use British English throughout
 - Be specific — "marketing managers at B2B SaaS companies with 50-200 employees" is better than "marketers"
 - Distinguish between confirmed data and inferred characteristics
-- Prioritise actionable insights over exhaustive coverage
+- Prioritize actionable insights over exhaustive coverage
